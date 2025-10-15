@@ -1,0 +1,26 @@
+.top {
+    text-align: center;
+    background-color: indigo;
+    padding-top: 30px;
+    margin: 2px;
+}
+
+.bot { 
+    padding-bottom: 30px;
+}
+
+.left {
+    background-color: indigo;
+    padding-left: 30px; /* изменено с 600px на более разумное значение */
+}
+
+.right {
+    background-color: indigo;
+    padding-right: 30px; /* аналогично */
+}
+
+.center {
+    text-align: center;
+    background-color: indigo;
+    padding: 20px;
+}
