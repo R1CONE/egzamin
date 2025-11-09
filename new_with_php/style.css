@@ -1,54 +1,65 @@
-
-
-#gora{
+body {
+    margin: 0;
+    padding: 0;
     font-family: Tahoma;
-    padding: 2%;
-    min-height: 400px;
-    float: left;
+}
+
+/* ------ TOP ------ */
+
+.top {
+    display: flex;
+    width: 100%;
+}
+
+#gora {
     width: 65%;
-    background-color:  #FB8E02;
+    min-height: 400px;
+    padding: 2%;
+    background-color: #FB8E02;
     box-sizing: border-box;
 }
 
-#gora2{
-    font-family: Tahoma;
-    padding: 2%;
-    min-height: 400px;
+#gora2 {
     width: 35%;
-    float: left;
+    min-height: 400px;
+    padding: 2%;
     box-sizing: border-box;
+
     background-image: url("obraz1.jpg");
-    background-size: contain;    
+    background-size: cover;          /* картинка растягивается красиво */
+    background-position: center;     /* в центре */
     background-repeat: no-repeat;
-    background-position: top right; 
 }
 
-#srodek1{
-    font-family: Tahoma;
-    padding: 2%;
+/* ------ MIDDLE ------ */
+
+.middle {
+    display: flex;
+    width: 100%;
+}
+
+#srodek1 {
     width: 65%;
-    
-    box-sizing: border-box;
+    padding: 2%;
     background-color: red;
+    box-sizing: border-box;
 }
 
-#srodek2{
-    font-family: Tahoma;
-    padding: 2%;
+#srodek2 {
     width: 35%;
     min-height: 750px;
+    padding: 2%;
+    background-color: yellow;
     box-sizing: border-box;
-    float: left;
-    background-color:  yellow;
-
-   
 }
 
-#stopka{
-    font-family: Tahoma;
-    padding: 2%;
+/* ------ FOOTER ------ */
+
+#stopka {
     width: 100%;
-    min-height: 20px;
+    min-height: 50px;
+    padding: 2%;
+    background-color: black;
+    color: white;
     box-sizing: border-box;
-    background-color:  black;
 }
