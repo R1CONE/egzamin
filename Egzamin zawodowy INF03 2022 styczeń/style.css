@@ -1,1 +1,57 @@
 
+.top {
+    display: flex;
+    width: 100%;
+}
+
+#gora {
+    width: 65%;
+    min-height: 400px;
+    padding: 2%;
+    background-color: #FB8E02;
+    box-sizing: border-box;
+}
+
+#gora2 {
+    width: 35%;
+    min-height: 400px;
+    padding: 2%;
+    box-sizing: border-box;
+
+    background-image: url("obraz1.jpg");
+    background-size: cover;          
+    background-position: center;     
+    background-repeat: no-repeat;
+}
+
+
+
+.middle {
+    display: flex;
+    width: 100%;
+}
+
+#srodek1 {
+    width: 65%;
+    padding: 2%;
+    background-color: red;
+    box-sizing: border-box;
+}
+
+#srodek2 {
+    width: 35%;
+    min-height: 750px;
+    padding: 2%;
+    background-color: yellow;
+    box-sizing: border-box;
+}
+
+
+#stopka {
+    width: 100%;
+    min-height: 50px;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
