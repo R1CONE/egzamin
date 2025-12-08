@@ -36,8 +36,10 @@ if ($conn->connect_error) {
     <table border="1">
   <thead>
     <tr>
-      <td>Пол           </td>
-      <td>Колличество   </td>
+      <td>id</td>
+      <td>typ</td>
+      <td>nazwa</td>
+      
     </tr>
   </thead>
   <tbody>
