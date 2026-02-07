@@ -1,0 +1,13 @@
+header, footer{
+    text-align: center;
+    background-color: #00838F;
+    min-height: 40px;
+}
+
+body{
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #FCE4EC;
+
+}

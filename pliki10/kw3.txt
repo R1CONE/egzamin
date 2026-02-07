@@ -1,0 +1,1 @@
+SELECT nazwa, cena, link_obraz FROM miejsca WHERE link_obraz "0%";

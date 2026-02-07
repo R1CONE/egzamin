@@ -1,0 +1,1 @@
+SELECT nazwa, ROUND(AVG(liczba_doroslych)) FROM miejsca JOIN wycieczki On miejsca.id_miejsca = wycieczki.id_miejsca GROUP by nazwa;
