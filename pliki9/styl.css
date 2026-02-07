@@ -1,0 +1,35 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #FCE4EC;
+
+}
+
+header, footer {
+    background-color: #880E4F;
+    color: white;
+    padding: 10px;
+    letter-spacing: 20px;
+
+}
+
+#prawy{
+    box-sizing: border-box;
+    width: 45%;
+    min-height: 600px;
+    background-color: #FFFFFF;
+    text-align: center;
+
+
+
+}
+
+#lewy{
+    box-sizing: border-box;
+    width: 45%;
+    min-height: 600px;
+    background-color: #fff000;
+    text-align: center;
+    
+
+}
