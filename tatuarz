@@ -1,1 +1,61 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "styl.css"></link>
+</head>
+<body>
+
+    <div class = "nag1"> 
+        <img class = "logo_img" src="pliki\logo.png" alt="">
+
+    </div>
+    <div class = "nag2"> </div>
+    <div class = "sel"> </div>
+    <div class = "bocz"> </div>
+    
+</body>
+</html> 
+
+
+body{
+    background-color: white;
+}
+
+.logo_img{
+    width: 70%;
+    height: 70%;
+}
+
+.nag1{
+    width: 30%;
+    background-color: rosybrown;
+    height: 350px;
+    float: left;
+
+}
+
+.bocz{
+    width: 30%;
+    height: 350px;
+    background-color: rosybrown;
+    float: left;
+}
+
+.nag2{
+    width: 70%;
+    height: 100px;
+    background-color: rosybrown;
+    float: right;
+
+}
+
+
+.sel{
+    width: 70%;
+    height: 550px;
+    float:right;
+}
