@@ -1,0 +1,36 @@
+body{
+    background-color:   white;
+    
+}
+
+.gora_st{
+    width:  70%;
+    height: 150px;
+    background-color:   RosyBrown;
+    float: right;
+}
+
+.lew_icon{
+    width:  30%;
+    height: 250px;
+    background-color:   RosyBrown;
+    float: left;
+
+}
+
+.ark{
+    width:  70%;
+    height: 700px;
+    background-color: white;
+    float: right;
+
+}
+
+.lew_icon_2{
+    width:  30%;
+    height: 700px;
+    background-color:   RosyBrown;
+    float: left;
+
+}
+

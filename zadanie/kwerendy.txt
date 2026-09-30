@@ -1,0 +1,3 @@
+SELECT wzor, cena FROM `tatuaze` WHERE kolor = "Czarny" AND cena > 100 GROUP BY cena ASC;
+
+SELECT kolor, COUNT(*) FROM `tatuaze` GROUP BY kolor;
